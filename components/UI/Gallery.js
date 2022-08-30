@@ -4,11 +4,11 @@ import Image from "next/image";
 import FlatArrowRight from "./icons/FlatArrowRight";
 import FlatArrowIconLeft from "./icons/FlatArrowIconLeft";
 import classes from "./Gallery.module.css";
-import img1 from "../../public/gallery/1.jpg";
-import img2 from "../../public/gallery/2.jpg";
-import img3 from "../../public/gallery/3.jpg";
-import img4 from "../../public/gallery/4.jpg";
-import img5 from "../../public/gallery/5.jpg";
+import img1 from "../../public/gallery/1.webp";
+import img2 from "../../public/gallery/2.webp";
+import img3 from "../../public/gallery/3.webp";
+import img4 from "../../public/gallery/4.webp";
+import img5 from "../../public/gallery/5.webp";
 function Gallery() {
   const [translateVal, setTranslateVal] = useState(-14);
   const [currentIndex, setCurrentIndex] = useState(2);
