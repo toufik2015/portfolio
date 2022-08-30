@@ -7,7 +7,7 @@ import FlatArrowIcon from "./UI/icons/FlatArrowIcon";
 
 function HeroSection() {
   return (
-    <section className={classes["hero-section"]}>
+    <section id="mywork" className={classes["hero-section"]}>
       <SectionContainer>
         <div className={classes["hero-content"]}>
           <h3>I&apos;m Taoufik Nefouci</h3>
@@ -28,7 +28,7 @@ function HeroSection() {
               </Link>
             </div>
             <div className={classes["secondary-btn"]}>
-              <Link href="#mywork">
+              <Link href="/#mywork">
                 <a>
                   My work <FlatArrowIcon />
                 </a>

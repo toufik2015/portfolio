@@ -17,7 +17,7 @@ function NavBar() {
           </Link>
         </li>
         <li className={classes["nav-link"]}>
-          <Link href="#Mywork">
+          <Link href="#mywork">
             <a>My work</a>
           </Link>
         </li>
